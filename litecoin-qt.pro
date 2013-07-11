@@ -12,8 +12,12 @@ CONFIG += no_include_pwd
 # or when linking against a specific BerkelyDB version: BDB_LIB_SUFFIX=-4.8
 
 # Dependency library locations can be customized with:
-    BOOST_INCLUDE_PATH=C:/deps/boost, BOOST_LIB_PATH=C:/deps/boost/stage/lib, BDB_INCLUDE_PATH=C:/deps/db/build_unix,
-    BDB_LIB_PATH=C:/deps/db/build_unix, OPENSSL_INCLUDE_PATH=C:/deps/ssl/include and OPENSSL_LIB_PATH=C:/deps/ssl
+    BOOST_INCLUDE_PATH=C:/deps/boost
+    BOOST_LIB_PATH=C:/deps/boost/stage/lib
+    BDB_INCLUDE_PATH=C:/deps/db/build_unix,
+    BDB_LIB_PATH=C:/deps/db/build_unix
+    OPENSSL_INCLUDE_PATH=C:/deps/ssl/include
+    OPENSSL_LIB_PATH=C:/deps/ssl
 
 OBJECTS_DIR = build
 MOC_DIR = build
