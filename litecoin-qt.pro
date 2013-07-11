@@ -14,7 +14,7 @@ CONFIG += no_include_pwd
 # Dependency library locations can be customized with:
     BOOST_INCLUDE_PATH=C:/deps/boost
     BOOST_LIB_PATH=C:/deps/boost/stage/lib
-    BDB_INCLUDE_PATH=C:/deps/db/build_unix,
+    BDB_INCLUDE_PATH=C:/deps/db/build_unix
     BDB_LIB_PATH=C:/deps/db/build_unix
     OPENSSL_INCLUDE_PATH=C:/deps/ssl/include
     OPENSSL_LIB_PATH=C:/deps/ssl
@@ -289,7 +289,7 @@ OTHER_FILES += \
 # platform specific defaults, if not overridden on command line
 isEmpty(BOOST_LIB_SUFFIX) {
     macx:BOOST_LIB_SUFFIX = -mt
-    windows:BOOST_LIB_SUFFIX = -mgw44-mt-s-1_49
+    windows:BOOST_LIB_SUFFIX = -mgw46-mt-sd-1_53
 }
 
 isEmpty(BOOST_THREAD_LIB_SUFFIX) {
