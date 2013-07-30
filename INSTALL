@@ -1,0 +1,9 @@
+Building BestCoin
+
+See doc/readme-qt.rst for instructions on building bestcoin-qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of BestCoin.
+
+See doc/build-*.txt for instructions on building bestcoin,
+the intended-for-services, no-graphical-interface, reference
+implementation of BestCoin.
