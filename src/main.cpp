@@ -836,13 +836,13 @@ nSubsidy = 30000 * COIN;
 return nSubsidy + nFees;
 } 
 
-    // Subsidy is cut in half every 420480 blocks, which will occur approximately every 1 year
-    nSubsidy >>= (nHeight / 420480); // Bestcoin: 420k blocks in ~4 year
+    // Subsidy is cut in half every 480000 blocks, which will occur approximately every 4.5 year
+    nSubsidy >>= (nHeight / 480000); // Bestcoin: 480k blocks in ~4.5 year
 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 10 * 60; // BestCoin: 10 minutes
+static const int64 nTargetTimespan = 60 * 60; // BestCoin: 10 minutes
 static const int64 nTargetSpacing = 5 * 60; // BestCoin: 5 minute blocks
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
